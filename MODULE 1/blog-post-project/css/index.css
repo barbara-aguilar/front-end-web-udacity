@@ -1,5 +1,11 @@
 @import "grid.css";
 @import "navbar.css";
+@import "header.css";
+@import "main.css";
+@import "sidebar.css";
+@import "card-gallery.css";
+@import "form.css";
+@import "footer.css";
 @import "color-palette.css";
 
 html,

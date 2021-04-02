@@ -1,3 +1,13 @@
+.navbar {
+	background-color: #b8cfdb;
+	grid-area: navbar;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 5px -25px 50px #000;
+	z-index: 1;
+}
+
 .navbar-logo {
 	margin-left: 5%;
 	color: #fff;

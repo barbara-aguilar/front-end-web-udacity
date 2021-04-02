@@ -1,0 +1,7 @@
+.header {
+	grid-area: header;
+	background-image: url(../assets/header-bg3.jpg);
+	background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
