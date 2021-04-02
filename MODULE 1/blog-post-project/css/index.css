@@ -1,0 +1,10 @@
+@import "grid.css";
+@import "navbar.css";
+@import "color-palette.css";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}

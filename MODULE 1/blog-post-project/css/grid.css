@@ -1,0 +1,53 @@
+.container-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 10vh 90vh 100vh 60vh 10vh;
+	grid-template-areas:
+		"navbar navbar navbar navbar"
+		"header header header header"
+		"sidebar main main main"
+		"card-gallery card-gallery form form"
+		"footer footer footer footer";
+}
+
+.navbar {
+	background-color: #b8cfdb;
+	grid-area: navbar;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 5px -25px 50px black;
+	z-index: 1;
+}
+
+.header {
+	grid-area: header;
+	background-image: url(../assets/teste-header.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.sidebar {
+	background-color: burlywood;
+	grid-area: sidebar;
+}
+
+.main {
+	background-color: greenyellow;
+	grid-area: main;
+}
+
+.card-gallery {
+	background-color: olive;
+	grid-area: card-gallery;
+}
+
+.form {
+	background-color: gold;
+	grid-area: form;
+}
+
+.footer {
+	background-color: indianred;
+	grid-area: footer;
+}
