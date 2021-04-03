@@ -1,7 +1,7 @@
 .container-grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: auto auto 50vh 50vh 50vh 50vh 10vh;
+	grid-template-rows: auto auto auto 50vh 50vh 50vh 10vh;
 	grid-template-areas:
 		"navbar"
 		"header"

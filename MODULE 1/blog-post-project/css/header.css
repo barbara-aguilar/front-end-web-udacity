@@ -53,13 +53,18 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 .counter-numbers {
-	font-size: 60px;
+	font-size: 55px;
 	color: #fff;
 	line-height: 50px;
+	transition: font-size 2s;
+}
+
+.counter-numbers:hover {
+	font-size: 65px;
 }
 
 .counter-location {

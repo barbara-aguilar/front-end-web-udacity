@@ -1,4 +1,68 @@
 .sidebar {
-	background-color: burlywood;
+	background-color: #b8cfdb;
 	grid-area: sidebar;
+}
+
+.sidebar-wrapper {
+	padding: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar-image {
+	background-image: url("../assets/pexels-joseph-ruwa-3824270.jpg");
+	width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.sidebar-wrapper > h2 {
+	margin: 5px auto;	
+	text-align: center;	
+}
+
+.sidebar-wrapper > h4 {
+	margin: 0;
+	text-align: center;
+}
+
+.sidebar-wrapper > h5 {
+	margin: 10px auto;
+}
+
+.sidebar-social-icons > a {
+	text-decoration: none;
+}
+
+.sidebar-social-icons > a > img {
+	width: 25px;
+	height: 25px;
+}
+
+@media (min-width: 1024px){
+	.sidebar-wrapper {
+		padding: 8%;
+		margin-top: 3%;
+	}
+
+	.sidebar-image {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media (min-width: 1440px){
+	.sidebar-wrapper {
+		padding: 10%;
+		margin-top: 5%;
+	}
+
+	.sidebar-image {
+		width: 200px;
+		height: 200px;
+	}
 }
