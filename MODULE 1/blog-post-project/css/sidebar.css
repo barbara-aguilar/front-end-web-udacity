@@ -14,15 +14,16 @@
 .sidebar-image {
 	background-image: url("../assets/pexels-joseph-ruwa-3824270.jpg");
 	width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-position: center;
-    background-size: cover;
+	height: 100px;
+	border-radius: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 15px;
 }
 
 .sidebar-wrapper > h2 {
-	margin: 5px auto;	
-	text-align: center;	
+	margin: 5px auto;
+	text-align: center;
 }
 
 .sidebar-wrapper > h4 {
@@ -30,8 +31,13 @@
 	text-align: center;
 }
 
+.sidebar-wrapper > p {
+	text-align: justify;
+}
+
 .sidebar-wrapper > h5 {
 	margin: 10px auto;
+	font-size: 12px;
 }
 
 .sidebar-social-icons > a {
@@ -41,12 +47,18 @@
 .sidebar-social-icons > a > img {
 	width: 25px;
 	height: 25px;
+	padding: 5px;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px) {
 	.sidebar-wrapper {
-		padding: 8%;
-		margin-top: 3%;
+		padding: 25% 10%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.sidebar-wrapper {
+		padding: 25% 10%;
 	}
 
 	.sidebar-image {
@@ -55,10 +67,9 @@
 	}
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
 	.sidebar-wrapper {
-		padding: 10%;
-		margin-top: 5%;
+		padding: 20% 10%;
 	}
 
 	.sidebar-image {
