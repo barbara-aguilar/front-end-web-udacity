@@ -1,7 +1,7 @@
 .container-grid {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-template-rows: auto auto auto 50vh 50vh 50vh 10vh;
+	grid-template-rows: auto auto auto auto 50vh 50vh 10vh;
 	grid-template-areas:
 		"navbar"
 		"header"
@@ -15,12 +15,18 @@
 @media (min-width: 768px) {
 	.container-grid {
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: 10vh 90vh 100vh 60vh 10vh;
+		grid-template-rows: 10vh auto auto 60vh 10vh;
 		grid-template-areas:
 			"navbar navbar navbar navbar"
 			"header header header header"
 			"sidebar main main main"
 			"card-gallery card-gallery form form"
 			"footer footer footer footer";
+	}
+}
+
+@media (min-width: 1024px) {
+	.container-grid {
+		grid-template-rows: 10vh 90vh auto 60vh 10vh;
 	}
 }

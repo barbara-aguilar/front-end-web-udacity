@@ -1,5 +1,7 @@
 
 .footer {
-	background-color: indianred;
+	background-color: #b8cfdb;
+	box-shadow: 5px -25px 100px #000;
+	z-index: 1;
 	grid-area: footer;
 }
