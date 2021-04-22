@@ -1,5 +1,5 @@
 .main {
-	background-color: #fff;
+	background-color: #f4f2f4;
 	grid-area: main;
 }
 
@@ -13,59 +13,72 @@
 .main-wrapper > h2 {
 	margin: 0 auto 20px;
 }
-.main-blog-card {
-	margin: 25px auto;
+
+.main-card {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 6px 25px 2px rgba(0,0,0,0.64);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
-.main-blog-card > img {
-	width: 100%
+.main-card > img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
 }
 
-
-.main-blog-card-wrapper > h3 {
-	margin: 10px auto;
+.main-card-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
 }
 
-.main-blog-card-wrapper > p {
-	text-align: justify;
+.content-wrapper {
+	padding: 30px;
+}
+
+.card-title {
+	margin: 0;
+}
+
+.card-subtitle {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.card-text {
+	font-size: 12px;
+
 }
 
 @media (min-width: 768px) {
 	.main-wrapper {
-		padding: 10%;
+		padding: 10% 5% 5%;
 	}
-
-	.main-blog-card {
-		display: flex;
+	.main-card {
 		flex-direction: row;
-		align-items: center;
-		justify-content: center;
+	}
+	.main-card > img {
+		width: 50%;
+		border-radius: 10px 0 0 10px;
 	}
 
-	.divider {
-		width: 100%;
-		border: 0,1px solid #c2c2c2;
-	}
-
-	.main-blog-card > img {
-		width: 30%
-	}
-
-	.main-blog-card-wrapper > h3 {
-		margin: 0 auto;
-	}
-	
-	.main-blog-card-wrapper  {
-		padding-left: 20px;
-	}
-
-	.main-blog-card-wrapper > p {
-		font-size: 12px;
+	.card-text {
+		font-size: 14px;
 	}
 }
 
 @media (min-width: 1024px) {
-	.main-blog-card-wrapper > p {
-		font-size: 14px;
+	.main-card > img {
+		width: 30%;
+	}
+
+	.card-text {
+		font-size: 16px;
 	}
 }
