@@ -1,5 +1,5 @@
 .sidebar {
-	background-color: #b8cfdb;
+	background-color: #fff;
 	grid-area: sidebar;
 }
 
@@ -57,13 +57,16 @@
 }
 
 @media (min-width: 1024px) {
-	.sidebar-wrapper {
-		padding: 25% 10%;
-	}
 
 	.sidebar-image {
 		width: 150px;
 		height: 150px;
+	}
+
+	.sidebar-social-icons > a > img {
+		width: 40px;
+		height: 40px;
+		padding: 10px;
 	}
 }
 
